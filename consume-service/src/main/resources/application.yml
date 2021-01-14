@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+dubbo:
+  application:
+    name: consumer-service-01
+  registry:
+    address: 192.168.73.133:2181
+    protocol: zookeeper
